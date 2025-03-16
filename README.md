@@ -37,31 +37,26 @@ This project uses nRF24L01 transceiver to establish wireless communication betwe
 
 ### Required libraries
 - SPI communication: https://github.com/arduino/ArduinoCore-avr/tree/master/libraries/SPI
-- nRF24L01: https://github.com/nRF24/RF24
+- nRF24L01: https://github.com/nRF24/RF24 <br><br>
 
 ## Wiring and Schematics
 **Transmitter schematic**
 ![transmitter](https://github.com/user-attachments/assets/c3b0d3cd-7b0f-424c-90ef-57980a7073b7)
-<br>
-<br>
-<br>
+<br><br><br>
 **Receiver schematic**
 ![receiver](https://github.com/user-attachments/assets/2467aeb5-3e98-4239-8a94-25c952c33488)
-
+<br><br><br>
 ## Troubleshooting  
 **Transmitter and receiver boards**
 ![transmitter_receiver_board](https://github.com/user-attachments/assets/c3724b30-df50-441b-a285-bb14e072c283)
-<br>
-<br>
-**Problem:** unreliable communication between devices <br>
+<br><br><br>
+**Problem:** unreliable communication between the devices <br>
 **Solution:** add 10uF capacitor near nRF24L01 power pins
-
+<br><br><br>
 ## Usage
 **Transmitter board**
 ![transmitter_board](https://github.com/user-attachments/assets/bcc2b8d3-5728-471a-9204-500ace57e75f)
-<br>
-<br>
-<br>
+<br><br><br>
 **Receiver board**
 ![receiver_board](https://github.com/user-attachments/assets/45325f86-045c-4d97-be06-2272136d49f2)
 
