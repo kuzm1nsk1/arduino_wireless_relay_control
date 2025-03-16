@@ -3,9 +3,9 @@
 This project uses nRF24L01 transceiver to establish wireless communication between 2 Arduino-based devices. One board acts as a transmitter (remote control), while the other functions as a receiver (relay module). Remote control can turn on or off 6 individual relays with the distance of roughly 70 meters. RGB LEDs on relay module indicate state of each relay, red meaning off and green meaning on.
 
 ## Features
-- wireless communication between the devices up to 100 meters in ideal conditions
-- switch up to 125VAC, 2A
-- remote control with six buttons
+- RF communication between the devices, up to 100 meters in ideal conditions
+- switch loads up to 125VAC, 2A
+- remote control with six pushbuttons
 - visual indication of relay states with RGB LEDs
 - transmitter and receiver can be powered with 7-24VDC
 
