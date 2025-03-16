@@ -28,8 +28,8 @@ This project uses nRF24L01 transceiver to establish wireless communication betwe
 - 6 diodes (1N4007)
 - 6 resistors 4k7
 - 12 resistors 220R
-- 6 3 pin screw terminals
-- 2 pin screw terminal
+- 6 3pin screw terminals
+- 2pin screw terminal
 - perfboard 8x12cm
 
 ## Software Requirements
