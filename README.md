@@ -48,6 +48,14 @@ This project uses nRF24L01 transceiver to establish wireless communication betwe
 **Receiver schematic**
 ![receiver](https://github.com/user-attachments/assets/2467aeb5-3e98-4239-8a94-25c952c33488)
 
+## Troubleshooting  
+**Transmitter and receiver boards**
+![transmitter_receiver_board](https://github.com/user-attachments/assets/c3724b30-df50-441b-a285-bb14e072c283)
+<br>
+<br>
+**Problem:** unreliable communication between devices <br>
+**Solution:** add 10uF capacitor near nRF24L01 power pins
+
 ## Usage
 **Transmitter board**
 ![transmitter_board](https://github.com/user-attachments/assets/bcc2b8d3-5728-471a-9204-500ace57e75f)
@@ -61,34 +69,3 @@ This project uses nRF24L01 transceiver to establish wireless communication betwe
 - long press of a button turns on a specific relay for 10 seconds
 - holding the two buttons on the right turns on all relays
 - holding the two buttons on the left turns off all relays
-
-## Troubleshooting  
-**Transmitter and receiver boards**
-![transmitter_receiver_board](https://github.com/user-attachments/assets/c3724b30-df50-441b-a285-bb14e072c283)
-<br>
-<br>
-<br>
-**Problem:** unreliable communication between devices <br>
-**Solution:** add 10uF capacitor near nRF24L01 power pins
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
